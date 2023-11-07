@@ -5,7 +5,7 @@
         static Dictionary<string, SweEngGloss> dictionary;
         class SweEngGloss
         {
-            public string word_swe, word_eng;
+            public string word_swe
             public SweEngGloss(string word_swe, string word_eng)
             {
                 this.word_swe = word_swe; this.word_eng = word_eng;
