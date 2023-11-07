@@ -25,10 +25,7 @@
                 Console.Write("> ");
                 string[] argument = Console.ReadLine().Split();
                 string command = argument[0];
-                if (command == "quit")
-                {
-                    Console.WriteLine("Goodbye!");
-                }
+
                 else if (command == "load")
                 {
                     if(argument.Length == 2)
