@@ -18,7 +18,7 @@
         }
         static void Main(string[] args)
         {
-            string defaultFile = "..\\..\\..\\dict\\sweeng.lis";
+            
             Console.WriteLine("Welcome to the dictionary app!");
             do
             {
