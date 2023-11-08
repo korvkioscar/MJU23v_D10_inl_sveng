@@ -7,9 +7,7 @@
         {
             public string word_swe
             public SweEngGloss(string word_swe, string word_eng)
-            {
-                this.word_swe = word_swe; this.word_eng = word_eng;
-            }
+
             public SweEngGloss(string line)
             {
                 string[] words = line.Split('|');
@@ -20,7 +18,7 @@
         {
             
             Console.WriteLine("Welcome to the dictionary app!");
-            do
+            do //The "List" command should not be checked every iteration in the do while loop. We can move this check outside the loop.
             {
                 Console.Write("> ");
                 string[] argument = Console.ReadLine().Split();
