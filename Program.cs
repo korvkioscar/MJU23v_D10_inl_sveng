@@ -24,7 +24,7 @@
                 string[] argument = Console.ReadLine().Split();
                 string command = argument[0];
 
-                else if (command == "load")
+                if (command == "load")
                 {
                     if(argument.Length == 2)
                     {
