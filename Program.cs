@@ -44,6 +44,7 @@
                     {
                         using (StreamReader sr = new StreamReader(defaultFile))
                         {
+                            // The repeated code for reading from the default file can be refactored into a single block
                             dictionary = new List<SweEngGloss>(); // Empty it!
                             string line = sr.ReadLine();
                             while (line != null)
