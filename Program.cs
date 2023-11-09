@@ -2,7 +2,7 @@
 {
     internal class Program
     {
-        static Dictionary<string, SweEngGloss> dictionary;
+
         class SweEngGloss
         {
             public string word_swe
